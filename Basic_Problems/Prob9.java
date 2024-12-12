@@ -1,3 +1,4 @@
+//print the no. from 2 to n
 
 public class Prob9 {
 

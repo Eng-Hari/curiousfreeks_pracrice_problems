@@ -12,5 +12,6 @@ public class Prob6 {
         for (int i = 0; i <= 1000; i += x) {
             System.out.println(i);
         }
+        sc.close();
     }
 }

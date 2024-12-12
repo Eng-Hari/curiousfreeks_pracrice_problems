@@ -1,3 +1,4 @@
+// sum of n natural numbers
 
 public class Prob8 {
 
