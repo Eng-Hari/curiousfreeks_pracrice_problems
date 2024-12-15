@@ -5,9 +5,8 @@ public class Count_digit {
         int num = 9879;
         int count = 0;
         while (num > 0) {
-            int digit = num % 10;
-            count++;
             num /= 10;
+            count++;
         }
         System.out.print(count);
     }
