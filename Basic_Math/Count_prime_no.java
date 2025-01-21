@@ -8,17 +8,18 @@ public class Count_prime_no {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int count = 0;
-            int flag = 1;
-            for (int j = 2; j <= Math.sqrt(i); j++) {
-                if (i % j == 0) {
-                    flag = 0;
-                    break;
-                }
+        int flag = 1;
+        for (int j = 2; j <= n / 2; j++) {
+            if (n % j == 0) {
+                flag = 0;
+                break;
             }
             if (flag == 1) {
                 count++;
             }
         }
+
         System.out.println(count);
     }
+
 }
